@@ -16,8 +16,8 @@ public class Homework_1 {
     private static void startProgram() {
         Integer i = getRandomNumber();
         int n = getByteValue(i);
-        System.out.println(getFirstArray(i, n));
-        System.out.println(getSecondArray(i, n));
+        getFirstArray(i, n);
+        getSecondArray(i, n);
     }
 
     private static int getRandomNumber() {
