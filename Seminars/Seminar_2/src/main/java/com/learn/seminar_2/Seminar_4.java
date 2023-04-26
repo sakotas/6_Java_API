@@ -52,8 +52,7 @@ public class Seminar_4 {
         System.out.println(genders);
         System.out.println(list);
 
-        ArrayList<Integer> order = new ArrayList<>();
-        order = (ArrayList<Integer>) ids.clone();
+        ArrayList<Integer> order = new ArrayList<>(ids);
 
         int temp = 0;
         boolean isSorted = true;
